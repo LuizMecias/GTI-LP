@@ -1,0 +1,78 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header img{
+    width: 200px;
+    height: 200px;
+}
+header h1{
+    flex: 1;
+    text-align: center;
+    font-size: 4em;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+}
+nav a{
+    flex: 1;
+    height: 50px;
+    background-color: #ffcc00;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 2em;
+}
+nav a:link{
+    color: blueviolet;
+}
+nav a:visited{
+    color: black;
+}
+nav a:hover{
+    color: #ff9900;
+}
+#fotos{
+    display: flex;
+    flex-direction: row;
+}
+#fotos img{
+    flex: 1;
+    padding: 20px;
+    max-width: calc(33% -40px);
+}
+#acessivel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: solid #220052;
+    padding-top: 30px;
+}
+#acessivel img{
+    width: 600px;
+}
+#zumba{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: solid #220052;
+    padding-top: 30px;
+    align-items: center;
+}
+#zumba img{
+    width: 600px;
+    padding: 20px;
+}
+#zumba p{
+    padding: 20px;
+    text-align: justify;
+}

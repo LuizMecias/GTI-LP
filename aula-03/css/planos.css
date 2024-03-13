@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: cadetblue;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header img{
+    width: 200px;
+    height: 200px;
+}
+header h1{
+    flex: 1;
+    text-align: center;
+    font-size: 4em;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+}
+nav a{
+    flex: 1;
+    height: 50px;
+    background-color: #ffcc00;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 2em;
+}
+nav a:link{
+    color: blueviolet;
+}
+nav a:visited{
+    color: black;
+}
+nav a:hover{
+    color: #ff9900;
+}
+#titulo{
+    text-align: center;
+}
+#planos{
+    display: flex;
+    flex-direction: row;
+}
+#planos div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: darkgray;
+    margin: 15px;
+    border-radius: 10px;
+}
+div img{
+    flex: 1;
+    padding: 20px;
+    max-height: 250px;
+}
+div p{
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
